@@ -14,7 +14,7 @@
         }
         public Peca peca(int linha, int coluna)
         {
-            return pecas[linhas, colunas];
+            return pecas[linha, coluna];
         }
     }
 }
