@@ -1,5 +1,5 @@
 ﻿
-namespace tabuleiro
+snamespace tabuleiro
 {
     enum Cor
     {

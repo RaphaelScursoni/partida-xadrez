@@ -17,12 +17,12 @@ namespace xadrez_console_treino
                     }
                     else
                     {
-                        Console.WriteLine(tab.peca(i, j) + " ");
+                        Console.Write(tab.peca(i, j) + " ");
                     }
-
-                    Console.WriteLine();
                 }
+                Console.WriteLine();
             }
+
         }
     }
 }
