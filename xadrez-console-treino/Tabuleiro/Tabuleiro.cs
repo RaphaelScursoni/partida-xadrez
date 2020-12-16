@@ -23,7 +23,7 @@
         //verifica se tem exeption, retorna se tem peça.
         public bool existePeca(Posicao pos) {
             validarPosicao(pos);
-            return peca(pos) is null;
+            return peca(pos) != null;
         }
         public void colocarPeca(Peca p, Posicao pos) {
             if (existePeca(pos)) {
