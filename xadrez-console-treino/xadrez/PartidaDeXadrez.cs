@@ -13,6 +13,7 @@ namespace xadrez {
             tab = new Tabuleiro(8, 8);
             turno = 1;
             jogadorAtual = Cor.Branca;
+            terminada = false;
             colocarPecas();
         }
 
@@ -24,7 +25,7 @@ namespace xadrez {
         }
 
         public void colocarPecas() {
-            tab.colocarPeca(new Torre(tab, Cor.Branca), new PosicaoXadrez('c',1).toPosicao());
+            tab.colocarPeca(new Torre(tab, Cor.Branca), new PosicaoXadrez('c', 1).toPosicao());
             tab.colocarPeca(new Torre(tab, Cor.Branca), new PosicaoXadrez('c', 2).toPosicao());
             tab.colocarPeca(new Torre(tab, Cor.Branca), new PosicaoXadrez('d', 2).toPosicao());
             tab.colocarPeca(new Torre(tab, Cor.Branca), new PosicaoXadrez('e', 2).toPosicao());

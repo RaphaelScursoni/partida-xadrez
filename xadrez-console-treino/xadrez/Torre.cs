@@ -43,7 +43,7 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
-                pos.Linha = pos.Coluna + 1;
+                pos.Coluna = pos.Coluna + 1;
             }
 
             // esquerda
@@ -53,7 +53,7 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
-                pos.Linha = pos.Coluna - 1;
+                pos.Coluna = pos.Coluna - 1;
             }
 
             return mat;
