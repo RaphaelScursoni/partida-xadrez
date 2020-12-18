@@ -70,9 +70,6 @@ namespace xadrez {
                 turno++;
                 mudaJogador();
             }
-
-            turno++;
-            mudaJogador();
         }
 
         public void validarPosicaoDeOrigem(Posicao pos) {
