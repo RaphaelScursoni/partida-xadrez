@@ -36,6 +36,9 @@ namespace xadrez_console_treino {
                         Console.WriteLine(e.Message);
                         Console.ReadLine();
                     }
+
+                    Console.Clear();
+                    Tela.imprimirPartida(partida);
                 }
 
                 Tela.imprimirTabuleiro(partida.tab);
